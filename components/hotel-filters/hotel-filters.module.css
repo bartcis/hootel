@@ -1,0 +1,15 @@
+.filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filterLabel {
+  margin: 0;
+  font-size: .8rem;
+  text-align: center;
+}
+
+.filter {
+  margin: 0 10px;
+}

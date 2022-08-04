@@ -8,14 +8,14 @@ export const filtersSlice = createSlice({
     children: 0
   },
   reducers: {
-    setRating: ({rating}, {payload}) => {
-      rating = payload
+    setRating: (state, {payload}) => {
+      state.rating = payload
     },
-    setAdultsCount: ({adults}, {payload})=> {
-      adults = payload
+    setAdultsCount: (state, {payload})=> {
+      state.adults = payload
     },
-    setChildrenCount: ({children}, {payload}) => {
-      children = payload
+    setChildrenCount: (state, {payload}) => {
+      state.children = payload
     },
   },
 })
