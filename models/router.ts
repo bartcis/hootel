@@ -1,3 +1,3 @@
 export enum RoutePaths {
-  LIST = '/'
+  LIST = '/',
 }

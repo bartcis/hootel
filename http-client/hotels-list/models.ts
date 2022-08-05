@@ -9,10 +9,10 @@ export type GetHotelsListVM = {
   country: string;
   countryCode: string;
   starRating: string;
-  facilities: {code: string;}[];
+  facilities: { code: string }[];
   telephone: string;
   email: string;
-  images: {url: string;}[];
+  images: { url: string }[];
   checkInHours: string;
   checkInMinutes: string;
   checkOutHours: string;
@@ -22,4 +22,4 @@ export type GetHotelsListVM = {
     longitude: number;
     timezone: string;
   };
-}
+};

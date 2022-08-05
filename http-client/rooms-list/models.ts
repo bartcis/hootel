@@ -3,24 +3,24 @@ export type SingleRoom = {
   name: string;
   shortDescription: string;
   longDescription: string;
-  occupancy:{
+  occupancy: {
     maxAdults: number;
     maxChildren: number;
     maxOverall: number;
-  },
+  };
   disabledAccess: boolean;
-  bedConfiguration:string;
-  images:{
-    url:string;
-    alt:string;
+  bedConfiguration: string;
+  images: {
+    url: string;
+    alt: string;
   }[];
-    facilities: {
-    code:string;
-    name:string;
+  facilities: {
+    code: string;
+    name: string;
   }[];
-}
+};
 
 export type GetRoomsListVM = {
   rooms: SingleRoom[];
   ratePlans: Record<string, unknown>[];
-}
+};

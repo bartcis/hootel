@@ -1,4 +1,4 @@
-import { createSlice } from '@reduxjs/toolkit'
+import { createSlice } from '@reduxjs/toolkit';
 
 export type FiltersSliceType = {
   rating: number;
@@ -11,21 +11,21 @@ export const filtersSlice = createSlice({
   initialState: {
     rating: 0,
     adults: 0,
-    children: 0
+    children: 0,
   },
   reducers: {
-    setRating: (state, {payload}) => {
-      state.rating = payload
+    setRating: (state, { payload }) => {
+      state.rating = payload;
     },
-    setAdultsCount: (state, {payload})=> {
-      state.adults = payload
+    setAdultsCount: (state, { payload }) => {
+      state.adults = payload;
     },
-    setChildrenCount: (state, {payload}) => {
-      state.children = payload
+    setChildrenCount: (state, { payload }) => {
+      state.children = payload;
     },
   },
-})
+});
 
-export const { setRating, setAdultsCount, setChildrenCount } = filtersSlice.actions
+export const { setRating, setAdultsCount, setChildrenCount } = filtersSlice.actions;
 
-export default filtersSlice.reducer
+export default filtersSlice.reducer;

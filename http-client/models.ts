@@ -25,5 +25,5 @@ export type AbortSignalParam = {
 
 export enum HootelApiId {
   hotelsList = 'hotelsList',
-  roomsList = 'roomsList'
+  roomsList = 'roomsList',
 }

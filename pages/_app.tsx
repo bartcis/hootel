@@ -1,4 +1,4 @@
-import { AppPageType } from "../models/layout";
+import { AppPageType } from '../models/layout';
 import { AppComponent } from '../page-components';
 
 import './app.css';
