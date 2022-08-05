@@ -17,3 +17,19 @@
 .logo {
   font-size: 2rem;
 }
+
+.footer {
+  height: 40px;
+  padding: 10px;
+  text-align: right;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.content {
+  max-width: 1200px;
+  min-height: calc(100% - 100px);
+  margin: auto;
+}

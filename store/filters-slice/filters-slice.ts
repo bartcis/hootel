@@ -1,5 +1,11 @@
 import { createSlice } from '@reduxjs/toolkit'
 
+export type FiltersSliceType = {
+  rating: number;
+  adults: number;
+  children: number;
+};
+
 export const filtersSlice = createSlice({
   name: 'filters',
   initialState: {
