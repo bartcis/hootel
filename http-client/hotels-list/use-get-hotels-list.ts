@@ -20,4 +20,3 @@ export const useGetHotelsList = ({ rating }: UseGetHotelsListProps) => {
 };
 
 export default useGetHotelsList;
-
