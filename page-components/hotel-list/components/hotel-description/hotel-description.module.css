@@ -1,0 +1,28 @@
+
+.tileContent {
+  text-align: left;
+  padding: 10px 20px;
+  height: 100%;
+  width: 100%;
+}
+
+.tileContent p {
+  margin: 5px 0;
+}
+
+.button {
+  width: 100%;
+  text-align: center;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
