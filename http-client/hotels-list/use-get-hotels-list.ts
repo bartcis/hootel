@@ -18,3 +18,6 @@ export const useGetHotelsList = ({ rating }: UseGetHotelsListProps) => {
     isError,
   };
 };
+
+export default useGetHotelsList;
+
